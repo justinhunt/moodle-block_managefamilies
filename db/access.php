@@ -25,7 +25,7 @@ defined('MOODLE_INTERNAL') || die();
 $capabilities = array(
 
     'block/managefamilies:addinstance' => array(
-        'riskbitmask' => RISK_PERSONAL
+        'riskbitmask' => RISK_PERSONAL,
         'captype' => 'write',
         'contextlevel' => CONTEXT_BLOCK,
         'archetypes' => array(
